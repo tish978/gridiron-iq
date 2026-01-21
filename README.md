@@ -127,7 +127,7 @@ Optional (for future features):
 ## 🎮 Game Flow
 
 1. **Landing Page**: High-impact branding with "Begin the Drive" CTA
-2. **Question Phase**: 4 questions (2 History, 2 Scheme) with progress tracking
+2. **Question Phase**: 4 questions (2 History, 2 Tactical) with progress tracking
 3. **Feedback**: Real-time feedback ("TOUCHDOWN" or "INTERCEPTED") with explanations
 4. **Results**: Professional grade (Hall of Fame, All-Pro, Pro Bowl, etc.) with breakdown
 
@@ -162,7 +162,7 @@ Fetch randomized question set.
 
 **Parameters**:
 - `count` (optional, default: 4): Number of questions (1-10)
-- `categories` (optional): Comma-separated categories (History, Scheme)
+- `categories` (optional): Comma-separated categories (History, Tactical)
 
 **Example**:
 ```bash
