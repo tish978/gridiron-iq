@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite NFL Knowledge. No Casual Fans. Test your Gridiron IQ.">
+    <title>Gridiron IQ - Elite NFL Knowledge</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico">
+</head>
+<body class="neu-bg font-['Inter'] min-h-screen">
+    <!-- Main App Container -->
+    <main id="app" role="main" class="min-h-screen flex flex-col items-center justify-center p-4 max-w-4xl mx-auto">
+        <!-- Landing Screen -->
+        <section id="landing-screen" class="w-full text-center">
+            <div class="mb-12">
+                <!-- Animated Football Icon -->
+                <div id="football-icon" class="inline-block mb-8 neu-card neu-pressed p-6 rounded-3xl pulse-soft">
+                    <svg width="80" height="80" viewBox="0 0 100 100">
+                        <ellipse cx="50" cy="50" rx="30" ry="20" fill="#CCFF00" transform="rotate(-45 50 50)" opacity="0.9"/>
+                        <line x1="35" y1="50" x2="65" y2="50" stroke="#000000" stroke-width="2"/>
+                        <line x1="50" y1="40" x2="50" y2="60" stroke="#000000" stroke-width="2"/>
+                    </svg>
+                </div>
+                
+                <h1 class="text-5xl md:text-7xl font-black italic mb-6 neu-text-primary">
+                    GRIDIRON IQ
+                </h1>
+                <p class="text-xl md:text-2xl neu-text-secondary mb-10 font-semibold">
+                    Elite NFL Knowledge. No Casual Fans.
+                </p>
+            </div>
+            
+            <button 
+                id="start-btn" 
+                class="neu-btn neu-btn-primary px-12 py-5 text-xl font-black italic rounded-2xl transition-all duration-200 focus:outline-none"
+                aria-label="Begin the Drive"
+            >
+                BEGIN THE DRIVE
+            </button>
+        </section>
+        
+        <!-- Question Screen -->
+        <section id="question-screen" class="w-full hidden">
+            <!-- Progress Bar -->
+            <div class="mb-8">
+                <div class="flex justify-between items-center mb-3">
+                    <span id="progress-text" class="text-sm font-bold neu-text-secondary">Question 1 of 4</span>
+                    <span id="category-badge" class="px-4 py-2 neu-card neu-pressed rounded-xl text-xs font-bold uppercase neu-text-accent"></span>
+                </div>
+                <div class="w-full neu-card neu-pressed h-4 rounded-full overflow-hidden">
+                    <div id="progress-bar" class="h-full neu-progress transition-all duration-500 ease-out rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+            
+            <!-- Question Card -->
+            <article class="neu-card neu-raised rounded-3xl p-6 md:p-8 mb-6" aria-live="polite">
+                <h2 id="question-text" class="text-2xl md:text-3xl font-black italic mb-8 text-center leading-tight neu-text-primary"></h2>
+                
+                <!-- Answer Buttons -->
+                <form id="answer-form" role="group" aria-labelledby="question-text" class="space-y-4">
+                    <button 
+                        type="button" 
+                        class="answer-btn neu-btn neu-btn-answer w-full p-5 text-left rounded-2xl font-bold text-lg focus:outline-none"
+                        data-index="0"
+                        aria-label="Answer A"
+                    >
+                        <span class="mr-3 neu-text-accent font-black">A)</span>
+                        <span class="answer-text neu-text-primary"></span>
+                    </button>
+                    <button 
+                        type="button" 
+                        class="answer-btn neu-btn neu-btn-answer w-full p-5 text-left rounded-2xl font-bold text-lg focus:outline-none"
+                        data-index="1"
+                        aria-label="Answer B"
+                    >
+                        <span class="mr-3 neu-text-accent font-black">B)</span>
+                        <span class="answer-text neu-text-primary"></span>
+                    </button>
+                    <button 
+                        type="button" 
+                        class="answer-btn neu-btn neu-btn-answer w-full p-5 text-left rounded-2xl font-bold text-lg focus:outline-none"
+                        data-index="2"
+                        aria-label="Answer C"
+                    >
+                        <span class="mr-3 neu-text-accent font-black">C)</span>
+                        <span class="answer-text neu-text-primary"></span>
+                    </button>
+                    <button 
+                        type="button" 
+                        class="answer-btn neu-btn neu-btn-answer w-full p-5 text-left rounded-2xl font-bold text-lg focus:outline-none"
+                        data-index="3"
+                        aria-label="Answer D"
+                    >
+                        <span class="mr-3 neu-text-accent font-black">D)</span>
+                        <span class="answer-text neu-text-primary"></span>
+                    </button>
+                </form>
+            </article>
+            
+            <!-- Feedback Card -->
+            <div id="feedback-card" class="hidden neu-card neu-raised rounded-3xl p-6 mb-6">
+                <div id="feedback-header" class="text-4xl font-black italic mb-4 text-center"></div>
+                <div id="feedback-explanation" class="text-lg neu-text-secondary mb-6 leading-relaxed"></div>
+                <button 
+                    id="next-btn" 
+                    class="w-full neu-btn neu-btn-primary px-8 py-4 text-xl font-black italic rounded-2xl transition-all duration-200 focus:outline-none"
+                    aria-label="Next Play"
+                >
+                    NEXT PLAY
+                </button>
+            </div>
+        </section>
+        
+        <!-- Results Screen -->
+        <section id="results-screen" class="w-full text-center hidden">
+            <div class="mb-8 w-full px-2">
+                <h2 class="text-3xl md:text-5xl font-black italic mb-6 neu-text-primary">YOUR GRADE</h2>
+                <div id="grade-display" class="neu-text-accent neu-card neu-raised p-4 md:p-6 rounded-3xl inline-block max-w-full break-words"></div>
+                <div id="score-display" class="text-2xl md:text-3xl font-bold mb-8 neu-text-secondary mt-6"></div>
+            </div>
+            
+            <!-- Score Breakdown -->
+            <div class="neu-card neu-raised rounded-3xl p-6 mb-8 text-left">
+                <h3 class="text-2xl font-black italic mb-6 text-center neu-text-primary">BREAKDOWN</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center py-3 border-b border-opacity-10 neu-border">
+                        <span class="text-lg font-bold neu-text-secondary">History IQ:</span>
+                        <span id="history-score" class="text-xl font-black neu-text-accent"></span>
+                    </div>
+                    <div class="flex justify-between items-center py-3">
+                        <span class="text-lg font-bold neu-text-secondary">Scheme IQ:</span>
+                        <span id="scheme-score" class="text-xl font-black neu-text-accent"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="space-y-4">
+                <button 
+                    id="restart-btn" 
+                    class="w-full neu-btn neu-btn-primary px-8 py-4 text-xl font-black italic rounded-2xl transition-all duration-200 focus:outline-none"
+                    aria-label="Run It Back"
+                >
+                    RUN IT BACK
+                </button>
+                <p class="text-center neu-text-secondary text-sm mt-4 italic">
+                    📸 Screenshot and share your grade!
+                </p>
+            </div>
+        </section>
+        
+        <!-- Loading Spinner -->
+        <div id="loading" class="hidden fixed inset-0 neu-bg-overlay flex items-center justify-center z-50">
+            <div class="text-center neu-card neu-raised p-8 rounded-3xl">
+                <div class="inline-block animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 neu-spinner mb-4"></div>
+                <p class="text-xl font-bold neu-text-primary">Loading Questions...</p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- JavaScript Modules -->
+    <script type="module" src="/static/js/api.js"></script>
+    <script type="module" src="/static/js/utils.js"></script>
+    <script type="module" src="/static/js/components.js"></script>
+    <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

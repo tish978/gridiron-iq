@@ -1,0 +1,392 @@
+/* Gridiron IQ - Neumorphic Design Styles */
+
+/* Neumorphic Color Palette - Electric Kiwi */
+:root {
+    --neu-bg: #000000;
+    --neu-shadow-light: #DFFF00;
+    --neu-shadow-dark: #000000;
+    --neu-text-primary: #CCFF00;
+    --neu-text-secondary: #DFFF00;
+    --neu-accent: #CCFF00;
+    --neu-accent-bright: #FFFF00;
+    --neu-success: #CCFF00;
+    --neu-error: #ff4444;
+    --neu-progress: #DFFF00;
+    --neu-card-bg: #0a0a0a;
+}
+
+/* Base Styles */
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: var(--neu-bg);
+    }
+}
+
+/* Neumorphic Background */
+.neu-bg {
+    background: var(--neu-bg);
+    min-height: 100vh;
+}
+
+.neu-bg-overlay {
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(4px);
+}
+
+/* Neumorphic Text Colors */
+.neu-text-primary {
+    color: var(--neu-text-primary);
+}
+
+.neu-text-secondary {
+    color: var(--neu-text-secondary);
+}
+
+.neu-text-accent {
+    color: var(--neu-accent);
+}
+
+/* Neumorphic Card Styles */
+.neu-card {
+    background: var(--neu-card-bg);
+    border: none;
+}
+
+/* Raised Card (appears to emerge from background) */
+.neu-raised {
+    box-shadow: 
+        8px 8px 16px rgba(0, 0, 0, 0.8),
+        -8px -8px 16px rgba(223, 255, 0, 0.15),
+        0 0 20px rgba(204, 255, 0, 0.1);
+}
+
+/* Pressed Card (appears to sink into background) */
+.neu-pressed {
+    box-shadow: 
+        inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+        inset -4px -4px 8px rgba(223, 255, 0, 0.1);
+}
+
+/* Neumorphic Button Base */
+.neu-btn {
+    background: var(--neu-bg);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+/* Primary Button (Raised) */
+.neu-btn-primary {
+    background: var(--neu-accent);
+    color: var(--neu-bg);
+    box-shadow: 
+        6px 6px 12px rgba(0, 0, 0, 0.8),
+        -6px -6px 12px rgba(223, 255, 0, 0.2),
+        0 0 20px rgba(204, 255, 0, 0.3);
+    font-weight: 900;
+}
+
+.neu-btn-primary:hover {
+    background: var(--neu-accent-bright);
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.8),
+        -4px -4px 8px rgba(255, 255, 0, 0.3),
+        0 0 30px rgba(255, 255, 0, 0.4);
+    transform: translateY(1px);
+}
+
+.neu-btn-primary:active {
+    box-shadow: 
+        inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+        inset -4px -4px 8px rgba(255, 255, 0, 0.2);
+    transform: translateY(2px);
+}
+
+/* Secondary Button */
+.neu-btn-secondary {
+    background: var(--neu-card-bg);
+    box-shadow: 
+        6px 6px 12px rgba(0, 0, 0, 0.8),
+        -6px -6px 12px rgba(223, 255, 0, 0.15),
+        0 0 15px rgba(204, 255, 0, 0.1);
+    color: var(--neu-accent);
+    border: 2px solid rgba(204, 255, 0, 0.3);
+}
+
+.neu-btn-secondary:hover {
+    border-color: var(--neu-accent);
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.8),
+        -4px -4px 8px rgba(223, 255, 0, 0.25),
+        0 0 25px rgba(204, 255, 0, 0.2);
+    transform: translateY(1px);
+}
+
+.neu-btn-secondary:active {
+    box-shadow: 
+        inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+        inset -4px -4px 8px rgba(223, 255, 0, 0.1);
+    transform: translateY(2px);
+}
+
+/* Answer Button */
+.neu-btn-answer {
+    background: var(--neu-card-bg);
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.8),
+        -4px -4px 8px rgba(223, 255, 0, 0.12),
+        0 0 10px rgba(204, 255, 0, 0.08);
+    color: var(--neu-text-primary);
+    border: 1px solid rgba(204, 255, 0, 0.2);
+}
+
+.neu-btn-answer:hover {
+    border-color: rgba(204, 255, 0, 0.4);
+    box-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.8),
+        -2px -2px 4px rgba(223, 255, 0, 0.2),
+        0 0 15px rgba(204, 255, 0, 0.15);
+    transform: translateY(1px);
+}
+
+.neu-btn-answer:active {
+    box-shadow: 
+        inset 3px 3px 6px rgba(0, 0, 0, 0.9),
+        inset -3px -3px 6px rgba(223, 255, 0, 0.1);
+    transform: translateY(2px);
+}
+
+/* Answer Button States */
+.answer-btn.selected {
+    box-shadow: 
+        inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+        inset -4px -4px 8px rgba(223, 255, 0, 0.15);
+    background: var(--neu-card-bg);
+    color: var(--neu-accent);
+    border-color: var(--neu-accent);
+}
+
+.answer-btn.correct {
+    background: var(--neu-success);
+    color: var(--neu-bg);
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.8),
+        -4px -4px 8px rgba(204, 255, 0, 0.4),
+        0 0 20px rgba(204, 255, 0, 0.5);
+    border-color: var(--neu-accent-bright);
+}
+
+.answer-btn.incorrect {
+    background: var(--neu-error);
+    color: white;
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.8),
+        -4px -4px 8px rgba(255, 68, 68, 0.3),
+        0 0 15px rgba(255, 68, 68, 0.4);
+}
+
+.answer-btn.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Progress Bar */
+.neu-progress {
+    background: linear-gradient(135deg, var(--neu-progress) 0%, var(--neu-accent-bright) 100%);
+    box-shadow: 
+        inset 2px 2px 4px rgba(0, 0, 0, 0.5),
+        inset -2px -2px 4px rgba(255, 255, 0, 0.3),
+        0 0 10px rgba(204, 255, 0, 0.4);
+}
+
+/* Spinner */
+.neu-spinner {
+    border-top-color: var(--neu-accent);
+    border-bottom-color: var(--neu-accent);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    filter: drop-shadow(0 0 8px rgba(204, 255, 0, 0.6));
+}
+
+/* Border Utilities */
+.neu-border {
+    border-color: var(--neu-shadow-dark);
+}
+
+/* Custom Animations */
+@keyframes flash-green {
+    0%, 100% { 
+        box-shadow: 
+            8px 8px 16px rgba(0, 0, 0, 0.8),
+            -8px -8px 16px rgba(223, 255, 0, 0.15),
+            0 0 20px rgba(204, 255, 0, 0.1);
+    }
+    50% { 
+        box-shadow: 
+            8px 8px 16px rgba(0, 0, 0, 0.8),
+            -8px -8px 16px rgba(204, 255, 0, 0.4),
+            0 0 40px rgba(204, 255, 0, 0.6);
+    }
+}
+
+@keyframes flash-red {
+    0%, 100% { 
+        box-shadow: 
+            8px 8px 16px rgba(0, 0, 0, 0.8),
+            -8px -8px 16px rgba(223, 255, 0, 0.15),
+            0 0 20px rgba(204, 255, 0, 0.1);
+    }
+    50% { 
+        box-shadow: 
+            8px 8px 16px rgba(0, 0, 0, 0.8),
+            -8px -8px 16px rgba(255, 68, 68, 0.3),
+            0 0 30px rgba(255, 68, 68, 0.5);
+    }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+@keyframes pulse-soft {
+    0%, 100% {
+        box-shadow: 
+            inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+            inset -4px -4px 8px rgba(223, 255, 0, 0.1),
+            0 0 15px rgba(204, 255, 0, 0.2);
+    }
+    50% {
+        box-shadow: 
+            inset 4px 4px 8px rgba(0, 0, 0, 0.9),
+            inset -4px -4px 8px rgba(223, 255, 0, 0.2),
+            0 0 25px rgba(204, 255, 0, 0.4);
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+    15%, 85% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -20px);
+    }
+}
+
+/* Utility Classes */
+.flash-green {
+    animation: flash-green 0.5s ease-in-out;
+}
+
+.flash-red {
+    animation: flash-red 0.5s ease-in-out;
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+.pulse-soft {
+    animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Feedback Card States */
+.feedback-touchdown {
+    border: 2px solid var(--neu-success);
+    box-shadow: 
+        8px 8px 16px rgba(0, 0, 0, 0.8),
+        -8px -8px 16px rgba(223, 255, 0, 0.2),
+        0 0 30px rgba(204, 255, 0, 0.3);
+}
+
+.feedback-touchdown #feedback-header {
+    color: var(--neu-accent);
+    text-shadow: 0 0 10px rgba(204, 255, 0, 0.5);
+}
+
+.feedback-intercepted {
+    border: 2px solid var(--neu-error);
+    box-shadow: 
+        8px 8px 16px rgba(0, 0, 0, 0.8),
+        -8px -8px 16px rgba(255, 68, 68, 0.2),
+        0 0 25px rgba(255, 68, 68, 0.3);
+}
+
+.feedback-intercepted #feedback-header {
+    color: var(--neu-error);
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+}
+
+/* Grade Display - Responsive sizing to prevent overflow */
+#grade-display {
+    font-size: clamp(2rem, 8vw, 5rem);
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.1;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Responsive Text Scaling */
+@media (max-width: 640px) {
+    #question-text {
+        font-size: clamp(1.25rem, 5vw, 1.875rem);
+    }
+    
+    #grade-display {
+        font-size: clamp(1.75rem, 7vw, 3rem);
+        padding: 1rem !important;
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus Styles */
+button:focus-visible,
+.answer-btn:focus-visible {
+    outline: 3px solid var(--neu-accent);
+    outline-offset: 3px;
+    border-radius: 0.5rem;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .neu-card,
+    .neu-btn {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}

@@ -1,0 +1,964 @@
+[
+  {
+    "q": "In Super Bowl XXV, why did Scott Norwood's field goal attempt sail wide right?",
+    "a": [
+      "Poor snap from the holder",
+      "Grass field vs. his dome stadium experience",
+      "47-yard distance into the wind",
+      "Defensive pressure forced a rushed kick"
+    ],
+    "correct": 1,
+    "type": "History",
+    "expl": "Norwood was 1-for-5 on grass fields from 40+ yards that season, having played in Buffalo's domed practice facility.",
+    "difficulty": 6
+  },
+  {
+    "q": "Which team holds the record for most points scored in a single Super Bowl?",
+    "a": [
+      "49ers (SB XXIV - 55 pts)",
+      "Cowboys (SB XXVII - 52 pts)",
+      "Broncos (SB XLVIII - 43 pts)",
+      "Patriots (SB LI - 34 pts)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 49ers scored 55 points in Super Bowl XXIV against the Broncos, the highest single-game total in Super Bowl history.",
+    "difficulty": 5
+  },
+  {
+    "q": "In a Cover 2 defense, what is the primary weakness?",
+    "a": [
+      "Deep middle seam routes",
+      "Outside vertical routes",
+      "Quick slants",
+      "Screen passes"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Cover 2 leaves the deep middle vulnerable between the two safeties, making seam routes and post routes effective.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why did the Wildcat formation lose effectiveness after its initial success in 2008?",
+    "a": [
+      "Defenses learned to key on the running back's alignment and movement",
+      "The formation was banned by the NFL rules committee",
+      "Teams couldn't find running backs athletic enough to run it",
+      "Quarterbacks refused to line up at receiver"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Defenses quickly adapted by recognizing alignment tells and movement patterns, making the Wildcat predictable. The formation's success was short-lived because it lacked the passing threat of a true quarterback.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which quarterback holds the record for most career passing touchdowns?",
+    "a": [
+      "Tom Brady",
+      "Peyton Manning",
+      "Drew Brees",
+      "Brett Favre"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Tom Brady retired with 649 career passing touchdowns, the most in NFL history.",
+    "difficulty": 4
+  },
+  {
+    "q": "When facing 11 personnel (1 RB, 1 TE, 3 WR), what defensive personnel package is most commonly used?",
+    "a": [
+      "Nickel (5 DBs) to match the 3 wide receivers",
+      "Base 4-3 to maintain run defense",
+      "Dime (6 DBs) for maximum pass coverage",
+      "Goal-line with 8 in the box"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Nickel defense (5 defensive backs) is the standard response to 11 personnel, allowing the defense to match the offense's 3 wide receivers while maintaining flexibility against the run.",
+    "difficulty": 7
+  },
+  {
+    "q": "The 'Immaculate Reception' involved which two teams?",
+    "a": [
+      "Steelers vs Raiders",
+      "Cowboys vs 49ers",
+      "Patriots vs Giants",
+      "Packers vs Bears"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Franco Harris's Immaculate Reception occurred in the 1972 AFC Divisional Playoff between Pittsburgh and Oakland.",
+    "difficulty": 5
+  },
+  {
+    "q": "What is the primary weakness of Cover 3 that offenses exploit with four verticals?",
+    "a": [
+      "The deep middle zone is vulnerable to post routes from both sides",
+      "Cornerbacks can't cover deep outside routes",
+      "Linebackers are too slow in underneath zones",
+      "The safety can't cover the entire deep field alone"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Four verticals attacks Cover 3 by sending four receivers deep, forcing the single deep safety to choose between multiple threats. The post route from the slot is particularly effective against Cover 3's deep middle zone.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which running back holds the single-season rushing record?",
+    "a": [
+      "Eric Dickerson (2,105 yards)",
+      "Adrian Peterson (2,097 yards)",
+      "Barry Sanders (2,053 yards)",
+      "Derrick Henry (2,027 yards)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Eric Dickerson rushed for 2,105 yards in 1984, a record that has stood for nearly 40 years.",
+    "difficulty": 6
+  },
+  {
+    "q": "Against a Cover 2 defense, why is a wheel route particularly effective when paired with a vertical route from the outside receiver?",
+    "a": [
+      "It creates a high-low read that forces the cornerback to choose between two threats",
+      "The running back is faster than the linebacker covering him",
+      "It draws the safety away from the deep middle",
+      "The flat defender can't cover both routes"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "The wheel route paired with a vertical creates a high-low read on the cornerback, who must choose between the deep threat and the wheel route. This is especially effective against Cover 2's outside corner responsibilities.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'Tuck Rule' game involved which teams?",
+    "a": [
+      "Patriots vs Raiders (2001 playoffs)",
+      "Packers vs Seahawks (2012)",
+      "Steelers vs Colts (2005)",
+      "Giants vs Patriots (Super Bowl XLII)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The controversial Tuck Rule call in the 2001 AFC Divisional game allowed Tom Brady's fumble to be ruled an incomplete pass, leading to a Patriots victory.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a zone blitz effective against a quick-passing offense?",
+    "a": [
+      "The unexpected coverage drops disrupt the quarterback's pre-snap read",
+      "The blitz gets to the quarterback faster",
+      "It forces the offense to use max protection",
+      "The defensive lineman in coverage is better at covering than a linebacker"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Zone blitzes are effective against quick-passing offenses because the unexpected coverage drops (like a defensive lineman dropping into a zone) disrupt the quarterback's pre-snap read and post-snap progression, leading to confusion and potential mistakes.",
+    "difficulty": 9
+  },
+  {
+    "q": "Which team was the first to go 16-0 in the regular season?",
+    "a": [
+      "2007 New England Patriots",
+      "1972 Miami Dolphins",
+      "1985 Chicago Bears",
+      "2013 Denver Broncos"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 2007 Patriots became the first team to complete a 16-0 regular season, though they lost Super Bowl XLII to the Giants.",
+    "difficulty": 5
+  },
+  {
+    "q": "Why do defenses often avoid press coverage against receivers with exceptional release moves?",
+    "a": [
+      "Elite receivers can beat the jam and create immediate separation",
+      "Press coverage is illegal against certain receivers",
+      "It requires too many defensive backs",
+      "The cornerback can't see the quarterback"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Elite receivers with advanced release techniques can defeat press coverage at the line, creating immediate separation and making the cornerback vulnerable. Against such receivers, off-coverage or bail technique is often preferred.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Music City Miracle' was a play in which playoff game?",
+    "a": [
+      "1999 Titans vs Bills (Wild Card)",
+      "2001 Rams vs Patriots (Super Bowl)",
+      "2007 Giants vs Packers (NFC Championship)",
+      "2012 Ravens vs Broncos (Divisional)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The Music City Miracle was a lateral play on a kickoff return that gave the Titans a last-second victory over the Bills in the 1999 Wild Card round.",
+    "difficulty": 6
+  },
+  {
+    "q": "Why might a team switch from a 4-3 to a 3-4 base defense?",
+    "a": [
+      "To create more pre-snap confusion and blitz flexibility with multiple rushers",
+      "The 3-4 requires fewer quality defensive linemen",
+      "To better defend against the run",
+      "The 4-3 is outdated and no longer effective"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Teams often switch to 3-4 for increased blitz flexibility and pre-snap confusion. The 3-4 allows multiple potential rushers from various angles, making it harder for offenses to identify protection schemes. It also requires fewer elite defensive linemen, as the scheme relies more on linebacker versatility.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which player is known as 'The Fridge'?",
+    "a": [
+      "William Perry (Bears defensive tackle)",
+      "Jerome Bettis (Steelers running back)",
+      "Warren Sapp (Buccaneers defensive tackle)",
+      "Shaun Rogers (Lions defensive tackle)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "William 'The Refrigerator' Perry was a 335-pound defensive tackle who famously scored touchdowns as a fullback for the 1985 Bears.",
+    "difficulty": 5
+  },
+  {
+    "q": "Why is the mesh concept particularly effective against man coverage but less so against zone?",
+    "a": [
+      "The crossing routes create natural picks that disrupt man-to-man coverage",
+      "Zone defenders can see the entire field and avoid picks",
+      "Man coverage defenders are slower than zone defenders",
+      "The mesh route is designed specifically to beat zone coverage"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Mesh concepts excel against man coverage because the crossing routes create natural picks and rubs that force defenders to navigate traffic. Against zone, defenders can see the entire field and pass off receivers more easily, making picks less effective.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'Helmet Catch' occurred in which Super Bowl?",
+    "a": [
+      "Super Bowl XLII (Giants vs Patriots)",
+      "Super Bowl XLIII (Steelers vs Cardinals)",
+      "Super Bowl XLVI (Giants vs Patriots)",
+      "Super Bowl LI (Patriots vs Falcons)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "David Tyree's helmet catch in Super Bowl XLII helped the Giants defeat the undefeated Patriots in one of the greatest upsets in NFL history.",
+    "difficulty": 6
+  },
+  {
+    "q": "What is the biggest risk when calling Cover 0 on a critical third down?",
+    "a": [
+      "A single missed tackle or coverage breakdown results in a touchdown",
+      "The blitz might not get to the quarterback in time",
+      "It requires too many defensive backs on the field",
+      "The offense will audible to a run play"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Cover 0's biggest risk is that with no safety help, any coverage breakdown or missed tackle can result in an immediate touchdown. The all-out blitz leaves cornerbacks on an island with no margin for error.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which team drafted Tom Brady and in what round?",
+    "a": [
+      "Patriots, 6th round (199th overall)",
+      "Patriots, 3rd round (87th overall)",
+      "49ers, 5th round (156th overall)",
+      "Raiders, 4th round (128th overall)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Tom Brady was famously selected in the 6th round, 199th overall, by the New England Patriots in the 2000 NFL Draft.",
+    "difficulty": 4
+  },
+  {
+    "q": "What defensive adjustment can neutralize an RPO's effectiveness?",
+    "a": [
+      "Having the read defender play the run first, forcing the QB to throw into coverage",
+      "Blitzing every play to pressure the quarterback",
+      "Playing prevent defense with deep safeties",
+      "Using only man coverage on all receivers"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Defenses can neutralize RPOs by having the 'read' defender (usually a linebacker or defensive end) commit to the run first, forcing the quarterback to throw into a defense that's now playing the pass. This removes the numbers advantage the RPO was designed to create.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'Fail Mary' game involved which teams?",
+    "a": [
+      "Packers vs Seahawks (2012)",
+      "Lions vs Cowboys (2014)",
+      "Raiders vs Patriots (2001)",
+      "Saints vs Rams (2018)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 'Fail Mary' was a controversial Hail Mary catch in 2012 that led to the end of replacement referees and highlighted the need for instant replay.",
+    "difficulty": 6
+  },
+  {
+    "q": "In a stick concept against Cover 3, why does the receiver adjust his route based on the linebacker's depth?",
+    "a": [
+      "To find the soft spot between the underneath zone and deep zone",
+      "The linebacker will intercept the pass if he runs the original route",
+      "The quarterback can't see the receiver if he runs too deep",
+      "The route is designed to draw the safety away from other receivers"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "The stick route is a 'sight adjustment' route where the receiver reads the linebacker's depth. If the linebacker is shallow, the receiver runs deeper; if deep, the receiver sits in the soft spot. This creates a completion window against zone coverage.",
+    "difficulty": 9
+  },
+  {
+    "q": "Which coach is credited with inventing the 'West Coast Offense'?",
+    "a": [
+      "Bill Walsh",
+      "Don Shula",
+      "Tom Landry",
+      "Vince Lombardi"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Bill Walsh developed the West Coast Offense with the 49ers, emphasizing short, precise passes and timing routes.",
+    "difficulty": 6
+  },
+  {
+    "q": "Why would a defense call Cover 6 against a team that frequently uses trips formations?",
+    "a": [
+      "It allows the defense to play Cover 4 to the trips side and Cover 2 to the single receiver side",
+      "Cover 6 is specifically designed to stop the run",
+      "It requires fewer defensive backs than other coverages",
+      "The offense can't run trips against Cover 6"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Cover 6 (Quarter-Quarter-Half) is ideal against trips formations because it allows the defense to play Cover 4 (four deep zones) to the trips side to handle multiple vertical threats, while playing Cover 2 to the single receiver side. This provides better coverage distribution against unbalanced formations.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'Philly Special' was executed in which Super Bowl?",
+    "a": [
+      "Super Bowl LII (Eagles vs Patriots)",
+      "Super Bowl LI (Patriots vs Falcons)",
+      "Super Bowl XLIX (Patriots vs Seahawks)",
+      "Super Bowl LIII (Patriots vs Rams)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The Philly Special was a trick play where Nick Foles caught a touchdown pass in Super Bowl LII, helping the Eagles win their first Super Bowl.",
+    "difficulty": 6
+  },
+  {
+    "q": "Why is the smash concept specifically designed to attack Cover 2's cornerback responsibilities?",
+    "a": [
+      "The corner route forces the cornerback to choose between the deep threat and the flat route",
+      "Cover 2 cornerbacks are slower than other coverage schemes",
+      "The flat route draws the safety away from the corner route",
+      "Cover 2 doesn't have a cornerback, only safeties"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "The smash concept attacks Cover 2 by creating a high-low read on the cornerback. The corner route (12-15 yards) and flat route force the cornerback to choose between two threats, with the safety providing deep help. This puts the cornerback in a difficult position, especially if the quarterback reads it correctly.",
+    "difficulty": 9
+  },
+  {
+    "q": "Which team has won the most Super Bowls?",
+    "a": [
+      "Pittsburgh Steelers and New England Patriots (6 each)",
+      "Dallas Cowboys (5)",
+      "San Francisco 49ers (5)",
+      "Green Bay Packers (4)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The Steelers and Patriots are tied with 6 Super Bowl victories each, the most in NFL history.",
+    "difficulty": 4
+  },
+  {
+    "q": "What type of linebacker is essential for Tampa 2 to be effective?",
+    "a": [
+      "A middle linebacker with exceptional speed and coverage ability to drop into the deep middle",
+      "A strongside linebacker who can blitz on every play",
+      "A weakside linebacker who specializes in run defense",
+      "Any linebacker as long as they're tall and can see over the defensive line"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Tampa 2 requires a special middle linebacker (like Derrick Brooks or Brian Urlacher) who has the speed and coverage ability to drop 15-20 yards into the deep middle zone. This creates a three-deep look that helps defend the seam routes that attack traditional Cover 2.",
+    "difficulty": 8
+  },
+  {
+    "q": "Why did the 2007 Patriots' perfect season end in Super Bowl XLII despite having the highest-scoring offense in NFL history?",
+    "a": [
+      "The Giants' pass rush disrupted their timing-based offense and forced uncharacteristic mistakes",
+      "Tom Brady was injured and couldn't throw accurately",
+      "The Patriots defense gave up too many points",
+      "The Giants had better players at every position"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The Giants' relentless pass rush, particularly from their defensive line, disrupted the Patriots' timing-based offense. New York sacked Brady five times and hit him 12 times, forcing the highest-scoring offense in NFL history to score only 14 points.",
+    "difficulty": 8
+  },
+  {
+    "q": "What makes a 'levels' concept effective against zone coverage?",
+    "a": [
+      "It creates multiple receivers at different depths, forcing defenders to choose which threat to cover",
+      "The receivers run faster routes than zone defenders can cover",
+      "It requires more defensive backs than the offense has receivers",
+      "Zone coverage can't defend against any route combination"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Levels concepts attack zone coverage by placing receivers at different depths (shallow, intermediate, deep) in the same area. This creates a 'high-low' or 'levels' read that forces zone defenders to choose which threat to cover, often leaving one receiver open.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Butt Fumble' occurred in which game?",
+    "a": [
+      "2012 Thanksgiving Day - Jets vs Patriots",
+      "2010 Monday Night Football - Jets vs Dolphins",
+      "2014 Playoffs - Jets vs Steelers",
+      "2011 Regular Season - Jets vs Bills"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Mark Sanchez's infamous 'Butt Fumble' occurred on Thanksgiving Day 2012 when he ran into his own offensive lineman's backside, fumbled, and the Patriots returned it for a touchdown. It became a symbol of the Jets' struggles that season.",
+    "difficulty": 6
+  },
+  {
+    "q": "Why do offenses use 'motion' before the snap?",
+    "a": [
+      "To identify coverage and create favorable matchups by forcing defensive adjustments",
+      "To confuse the quarterback about which play was called",
+      "To slow down the defensive pass rush",
+      "To give receivers more time to get open"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Pre-snap motion helps offenses identify coverage (man vs zone) based on how defenders move. It also creates favorable matchups by forcing defensive adjustments and can create leverage advantages for the offense.",
+    "difficulty": 7
+  },
+  {
+    "q": "Which rule change in 1978 fundamentally changed how offenses could attack defenses?",
+    "a": [
+      "The 'Mel Blount Rule' allowing only one bump within 5 yards of the line",
+      "The elimination of the two-point conversion",
+      "The introduction of the 45-second play clock",
+      "The requirement for all players to wear helmets"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 1978 'Mel Blount Rule' (named after the Steelers cornerback who was so effective at jamming receivers) limited defensive backs to one bump within 5 yards of the line of scrimmage. This opened up the passing game and led to the modern era of high-scoring offenses.",
+    "difficulty": 8
+  },
+  {
+    "q": "What is the primary advantage of using '12 personnel' (1 RB, 2 TE, 2 WR) over '11 personnel'?",
+    "a": [
+      "It creates formation flexibility - can run or pass from the same look without substitution",
+      "It always results in better pass protection",
+      "It forces the defense to use more defensive backs",
+      "The tight ends are always faster than wide receivers"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "12 personnel creates 'personnel conflict' for defenses. With two tight ends, the offense can run power formations or spread out to pass, forcing the defense to choose between base defense (vulnerable to pass) or nickel (vulnerable to run) without the offense substituting.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Minneapolis Miracle' was a play in which playoff game?",
+    "a": [
+      "2017 NFC Divisional - Vikings vs Saints",
+      "2018 NFC Championship - Vikings vs Eagles",
+      "2016 Wild Card - Vikings vs Packers",
+      "2019 Divisional - Vikings vs 49ers"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Stefon Diggs' 'Minneapolis Miracle' was a 61-yard walk-off touchdown catch as time expired in the 2017 NFC Divisional game, giving the Vikings a 29-24 victory over the Saints. The play involved a missed tackle by Saints safety Marcus Williams.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why is a 'rub route' or 'pick play' often controversial in the NFL?",
+    "a": [
+      "It's a fine line between legal route running and illegal offensive pass interference",
+      "The routes are too complex for referees to officiate",
+      "They're always illegal but never called",
+      "They require too many receivers on the field"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Rub routes and pick plays exist in a gray area where receivers intentionally cross paths to create separation. The NFL rules allow 'incidental contact' during route running, but if a receiver 'blocks' a defender, it's offensive pass interference. This creates controversy about what's legal vs illegal.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which team's relocation from Cleveland to Baltimore in 1996 created the current Ravens franchise?",
+    "a": [
+      "The original Cleveland Browns",
+      "The Houston Oilers",
+      "The Los Angeles Rams",
+      "The St. Louis Cardinals"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Art Modell moved the Cleveland Browns to Baltimore in 1996, creating the Baltimore Ravens. As part of the settlement, Cleveland kept the Browns' name, colors, and history, while Baltimore received the players and became a new franchise. The current Browns are considered an expansion team from 1999.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a 'play-action pass' most effective?",
+    "a": [
+      "When the run game has been established, making defenders commit to stopping the run",
+      "When the quarterback fakes the handoff very convincingly",
+      "When the offensive line blocks like it's a run play",
+      "When the defense is in prevent coverage"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Play-action is most effective when the run game has been established. Defenders who have been burned by runs are more likely to bite on the fake, creating open receivers downfield. Without a credible run threat, play-action loses its effectiveness.",
+    "difficulty": 7
+  },
+  {
+    "q": "The 'Beast Quake' run by Marshawn Lynch occurred in which playoff game?",
+    "a": [
+      "2010 NFC Wild Card - Seahawks vs Saints",
+      "2011 NFC Divisional - Seahawks vs Bears",
+      "2012 NFC Championship - Seahawks vs 49ers",
+      "2013 Super Bowl - Seahawks vs Broncos"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Marshawn Lynch's 67-yard 'Beast Quake' touchdown run in the 2010 NFC Wild Card game was so powerful that it registered on the local seismograph. The run featured multiple broken tackles and helped the 7-9 Seahawks upset the defending Super Bowl champion Saints.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why do defenses use 'spy' coverage on mobile quarterbacks?",
+    "a": [
+      "To have a defender dedicated to containing the quarterback's running ability",
+      "To confuse the quarterback about which defender is blitzing",
+      "To provide extra deep safety help",
+      "To create more pressure on the offensive line"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "A 'spy' is a defender (usually a linebacker or safety) assigned to watch the quarterback and prevent scrambling. This is crucial against mobile QBs who can extend plays and pick up first downs with their legs, forcing them to stay in the pocket.",
+    "difficulty": 7
+  },
+  {
+    "q": "Which draft pick is considered the biggest bust in NFL history?",
+    "a": [
+      "Ryan Leaf (2nd overall, 1998) - Chargers",
+      "JaMarcus Russell (1st overall, 2007) - Raiders",
+      "Tim Couch (1st overall, 1999) - Browns",
+      "Akili Smith (3rd overall, 1999) - Bengals"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "While arguments can be made for several players, Ryan Leaf is often considered the biggest bust because he was drafted right after Peyton Manning (who became one of the greatest QBs ever), had attitude problems, and lasted only 4 seasons with a 14-33 TD-INT ratio.",
+    "difficulty": 7
+  },
+  {
+    "q": "What is the purpose of a 'scrape exchange' in defensive scheme terminology?",
+    "a": [
+      "A linebacker and defensive end exchange responsibilities to confuse blocking assignments",
+      "Two defensive backs switch coverage zones mid-play",
+      "The defensive line shifts positions before the snap",
+      "A safety and cornerback trade man-coverage assignments"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "A scrape exchange involves a defensive end crashing inside while a linebacker loops outside, exchanging their typical gap responsibilities. This confuses offensive linemen who are trying to identify and block the correct defender, often creating free rushers.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'Hail Mary' pass became famous after which game?",
+    "a": [
+      "1975 NFC Divisional - Cowboys vs Vikings (Roger Staubach to Drew Pearson)",
+      "1980 NFC Championship - Cowboys vs 49ers",
+      "1984 Regular Season - Packers vs Lions",
+      "1990 Super Bowl - Giants vs Bills"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Roger Staubach coined the term 'Hail Mary' after his game-winning 50-yard touchdown pass to Drew Pearson in the 1975 NFC Divisional game. The term has since become synonymous with any desperate long pass attempt at the end of a game.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why is 'split zone' blocking effective against edge defenders who are aggressive in pursuit?",
+    "a": [
+      "The backside blocker can catch the edge defender over-pursuing and seal him inside",
+      "It creates more blockers than the defense has defenders",
+      "The zone blocking scheme is always more effective than man blocking",
+      "It allows the running back to choose any gap he wants"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Split zone uses a tight end or H-back to block the backside edge defender. When edge defenders aggressively pursue the play, the backside blocker can catch them over-pursuing and seal them inside, creating a cutback lane for the running back.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which player's 'Miracle at the Meadowlands' fumble recovery changed NFL rules about late-game situations?",
+    "a": [
+      "Herman Edwards (1978 - Eagles vs Giants)",
+      "DeSean Jackson (2010 - Eagles vs Giants)",
+      "David Tyree (2007 - Giants vs Patriots)",
+      "Antonio Freeman (2000 - Packers vs Vikings)"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Herman Edwards' 26-yard fumble return for a touchdown in 1978 (the original 'Miracle at the Meadowlands') occurred when the Giants tried to run out the clock instead of kneeling. This led to the 'victory formation' becoming standard practice in late-game situations.",
+    "difficulty": 8
+  },
+  {
+    "q": "What is the difference between 'man-free' and 'Cover 0' coverage?",
+    "a": [
+      "Man-free has a deep safety providing help; Cover 0 has no deep help",
+      "Man-free uses zone coverage; Cover 0 uses man coverage",
+      "Man-free requires 6 defensive backs; Cover 0 requires 4",
+      "There is no difference - they're the same coverage"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Man-free (or Cover 1) is man-to-man coverage with one deep safety providing help over the top. Cover 0 is pure man-to-man with no safety help, allowing the defense to blitz more aggressively but leaving cornerbacks completely isolated.",
+    "difficulty": 7
+  },
+  {
+    "q": "The 'Snowplow Game' involved which teams and what controversial play?",
+    "a": [
+      "1982 Patriots vs Dolphins - A snowplow cleared a spot for a game-winning field goal",
+      "1985 Bears vs Packers - A snowplow cleared the field for a touchdown run",
+      "1993 Bills vs Dolphins - A snowplow created a path for a game-winning drive",
+      "2001 Patriots vs Raiders - A snowplow cleared the field during the Tuck Rule game"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "In the 1982 'Snowplow Game,' Patriots coach Ron Meyer sent a prison inmate (who drove the stadium's John Deere tractor) onto the field to clear a spot for kicker John Smith's game-winning field goal. The Dolphins protested, but the play stood, and the NFL later banned such actions.",
+    "difficulty": 8
+  },
+  {
+    "q": "Why do offenses use 'empty' formations (no running back)?",
+    "a": [
+      "To force the defense to declare coverage and create favorable passing matchups",
+      "To make the defense think it's always a pass play",
+      "To allow the quarterback to run more easily",
+      "To confuse the defense about which players are eligible receivers"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Empty formations (5 receivers, no running back) force defenses to declare their coverage and personnel. This helps the quarterback identify man vs zone coverage pre-snap and creates favorable matchups, especially if the defense stays in base personnel against 5 receivers.",
+    "difficulty": 7
+  },
+  {
+    "q": "Which team's 'No Punt Game' strategy in 2018 changed how coaches think about fourth-down decisions?",
+    "a": [
+      "The 2018 Ravens, who went for it on every fourth down in a game",
+      "The 2018 Chiefs, who never punted during their playoff run",
+      "The 2018 Colts, who attempted 2-point conversions after every touchdown",
+      "The 2018 Buccaneers, who used only onside kicks"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "While not a single game, the 2018 season saw increased analytics-driven fourth-down aggression. Teams like the Ravens and others began going for it on fourth down more frequently, challenging traditional 'punt and play field position' philosophy with data showing the value of maintaining possession.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a 'counter' run play effective against aggressive defensive fronts?",
+    "a": [
+      "It uses misdirection - the play initially flows one way, then cuts back against the defense's pursuit",
+      "The offensive line blocks harder on counter plays",
+      "It requires fewer blockers than other run plays",
+      "The running back runs faster on counter plays"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Counter plays use misdirection - the play initially flows one direction (pulling guards, backside tackle), then the running back cuts back against the defense's pursuit. Against aggressive fronts that flow hard to the initial action, this creates cutback lanes and big play potential.",
+    "difficulty": 8
+  },
+  {
+    "q": "Why did the 'Air Coryell' offense revolutionize NFL passing attacks in the late 1970s?",
+    "a": [
+      "It used multiple receivers running deep routes simultaneously, stretching defenses vertically",
+      "It was the first offense to use play-action passes",
+      "It eliminated the need for a running game",
+      "It required faster quarterbacks than previous systems"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Don Coryell's offense with the Chargers used multiple receivers running deep routes at the same time, forcing defenses to defend the entire field vertically. This 'vertical stretch' concept became the foundation for modern passing attacks and influenced offenses for decades.",
+    "difficulty": 8
+  },
+  {
+    "q": "What is the primary purpose of a 'bubble screen' in modern offenses?",
+    "a": [
+      "To get the ball to a receiver quickly in space, forcing the defense to tackle in open field",
+      "To fake a screen and throw deep downfield",
+      "To draw defenders away from the running game",
+      "To use the screen as a decoy for a quarterback run"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Bubble screens get the ball to a receiver quickly in space, often to a slot receiver who motions or aligns wide. The goal is to create a numbers advantage (more blockers than defenders) and force the defense to make open-field tackles, which are more difficult than tackles near the line of scrimmage.",
+    "difficulty": 7
+  },
+  {
+    "q": "The 'Ice Bowl' (1967 NFL Championship) is famous for what reason?",
+    "a": [
+      "It was played in -13°F weather, the coldest game in NFL history",
+      "It featured the first overtime in NFL playoff history",
+      "It was the last game before the AFL-NFL merger",
+      "It had the most points scored in a championship game"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 1967 NFL Championship between the Packers and Cowboys was played in -13°F weather with a wind chill of -48°F. The field was frozen solid, players' faces were covered in ice, and the game became legendary for the extreme conditions. The Packers won 21-17 on Bart Starr's quarterback sneak with 13 seconds left.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why do defenses use 'pattern matching' in zone coverage?",
+    "a": [
+      "It combines zone principles with man-coverage techniques, allowing defenders to match routes within their zones",
+      "It requires defenders to memorize every possible route combination",
+      "It eliminates the need for safeties to provide deep help",
+      "It allows defenders to blitz on every play"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Pattern matching (like Match Quarters or Match 3) combines zone coverage's field distribution with man-coverage's route matching. Defenders start in zones but 'match' or follow receivers who enter their zones, providing tighter coverage than pure zone while maintaining zone principles.",
+    "difficulty": 9
+  },
+  {
+    "q": "Which team's 'Greatest Show on Turf' offense changed how teams approached offensive strategy?",
+    "a": [
+      "1999-2001 St. Louis Rams",
+      "2007 New England Patriots",
+      "2013 Denver Broncos",
+      "2018 Kansas City Chiefs"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 1999-2001 St. Louis Rams' 'Greatest Show on Turf' revolutionized NFL offenses with their fast-paced, spread attack. Led by Kurt Warner, Marshall Faulk, and receivers like Isaac Bruce and Torry Holt, they proved that high-scoring, pass-heavy offenses could win championships, influencing offensive philosophy for years.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a 'trap' block effective against aggressive defensive tackles?",
+    "a": [
+      "The defender is allowed to penetrate, then gets blocked from the side by a pulling lineman",
+      "The offensive lineman blocks harder than on other plays",
+      "It requires two blockers to execute properly",
+      "The running back runs directly at the defender being trapped"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "A trap block allows a defensive lineman to penetrate upfield, then a pulling guard or center blocks him from the side. This works against aggressive, penetrating defenders who are trying to get upfield quickly, as they're vulnerable to being blocked from an angle they're not expecting.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Immaculate Deception' refers to what controversial play?",
+    "a": [
+      "The 1972 Immaculate Reception, which some argue was an illegal forward lateral",
+      "A fake punt that won a Super Bowl",
+      "A trick play that resulted in a game-winning touchdown",
+      "A play where a receiver pretended to be down but wasn't"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 'Immaculate Reception' (1972) is sometimes called the 'Immaculate Deception' by Raiders fans who believe Franco Harris caught an illegal forward lateral. The NFL ruled the ball was deflected (making it a legal catch), but controversy persists about whether it was a forward pass or lateral.",
+    "difficulty": 8
+  },
+  {
+    "q": "Why is 'split flow' motion effective in the running game?",
+    "a": [
+      "It creates misdirection by sending the motion man one way while the run goes the other",
+      "It makes the running back run faster",
+      "It requires the defense to use more players",
+      "It eliminates the need for offensive linemen to block"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Split flow motion sends a receiver or back in motion one direction while the run goes the opposite way. This creates misdirection and forces defenders to account for the motion man, potentially pulling them out of position and creating better blocking angles for the actual run direction.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which rule change in 2011 made kickoffs less dangerous and changed special teams strategy?",
+    "a": [
+      "Moving the kickoff line from the 30 to the 35-yard line, increasing touchbacks",
+      "Eliminating the onside kick entirely",
+      "Requiring all kick returners to wear extra padding",
+      "Banning the fair catch on kickoffs"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Moving the kickoff from the 30 to the 35-yard line in 2011 significantly increased touchbacks, reducing the number of returns and high-speed collisions. This changed special teams strategy, with teams now often choosing to take a touchback rather than return kicks, and made onside kicks more difficult.",
+    "difficulty": 7
+  },
+  {
+    "q": "What is the advantage of using 'stack' or 'bunch' formations with receivers?",
+    "a": [
+      "It creates natural picks and makes it harder for defenders to identify and cover routes",
+      "The receivers can block for each other on every play",
+      "It forces the defense to use more defensive backs",
+      "The formation is illegal, so defenses can't defend it"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Stack and bunch formations (multiple receivers aligned close together) create natural picks and rubs. Defenders have difficulty identifying which receiver is running which route, and the close alignment creates traffic that helps receivers get open, especially against man coverage.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Fog Bowl' (1988 NFC Divisional) was notable for what reason?",
+    "a": [
+      "Dense fog rolled in during the second quarter, making the game nearly impossible to see",
+      "It was the coldest playoff game in NFL history",
+      "It featured the most turnovers in a playoff game",
+      "It was the first game to go into multiple overtimes"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 1988 NFC Divisional game between the Bears and Eagles became the 'Fog Bowl' when dense fog rolled into Soldier Field during the second quarter. Visibility dropped to 15-20 yards, making it nearly impossible for players, coaches, and fans to see the action. The Bears won 20-12 in conditions so bad that TV cameras couldn't capture the field.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why do offenses use 'jet sweep' motion even when they don't hand the ball off?",
+    "a": [
+      "To force defensive adjustments and create favorable blocking angles for inside runs",
+      "The motion is required by NFL rules",
+      "It makes the quarterback throw more accurately",
+      "It confuses the offensive players about which play was called"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Jet sweep motion (a receiver in fast motion across the formation) forces defenses to adjust their alignment and account for the potential sweep. Even when it's a fake, this motion can create better blocking angles for inside runs and force defenders out of position.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which team's '46 Defense' dominated the 1985 season and changed defensive philosophy?",
+    "a": [
+      "1985 Chicago Bears",
+      "1985 New York Giants",
+      "1985 Miami Dolphins",
+      "1985 Los Angeles Raiders"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "Buddy Ryan's '46 Defense' with the 1985 Bears revolutionized defensive strategy. Named for safety Doug Plank's jersey number, it used 8 men near the line of scrimmage to create confusion and pressure. The Bears allowed only 10.2 points per game and won Super Bowl XX, influencing defensive schemes for years.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a 'power read' (RPO with power blocking) difficult for defenses to defend?",
+    "a": [
+      "The offensive line blocks like it's a run, but the QB can pull and throw, creating conflict for defenders",
+      "The running back always gets the ball on power read plays",
+      "It requires the defense to blitz on every play",
+      "The quarterback never actually throws on power read plays"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Power read combines power run blocking (down blocks and a pulling guard) with an RPO. The offensive line blocks aggressively like it's a run, but the quarterback can pull the ball and throw. This creates conflict for edge defenders who must respect both the run and pass, often leading to one being open.",
+    "difficulty": 9
+  },
+  {
+    "q": "The 'River City Relay' (2003) is remembered for what reason?",
+    "a": [
+      "The Saints completed a miraculous lateral play for a touchdown, but missed the extra point to lose",
+      "It was the longest play in NFL history",
+      "It featured the most laterals in a single play",
+      "It was the first successful Hail Mary in NFL history"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "In 2003, the Saints completed an incredible 75-yard lateral play (the 'River City Relay') with multiple laterals for a touchdown as time expired. However, kicker John Carney missed the extra point, and the Saints lost 20-19 to the Jaguars. It's remembered as both a miraculous play and a heartbreaking ending.",
+    "difficulty": 7
+  },
+  {
+    "q": "Why do defenses use 'banjo' or 'switch' coverage against crossing routes?",
+    "a": [
+      "Defenders exchange coverage responsibilities when receivers cross, preventing picks from working",
+      "It allows defenders to blitz more effectively",
+      "It creates more confusion for the offense",
+      "It's the only way to defend crossing routes"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Banjo or switch coverage has defenders exchange (or 'switch') coverage responsibilities when receivers cross paths. This prevents natural picks from working and ensures each receiver is covered, neutralizing one of the main advantages of crossing route concepts.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which draft class is considered the greatest in NFL history?",
+    "a": [
+      "1983 - Featured 6 Hall of Fame quarterbacks including Elway, Marino, and Kelly",
+      "2004 - Featured Manning, Rivers, Roethlisberger, and other stars",
+      "2011 - Featured Newton, Dalton, Kaepernick, and other QBs",
+      "1996 - Featured multiple Hall of Fame players across positions"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 1983 NFL Draft is legendary, producing 6 Hall of Fame quarterbacks: John Elway, Dan Marino, Jim Kelly, Ken O'Brien, Tony Eason, and Todd Blackledge. It also produced Hall of Famers like Eric Dickerson, Bruce Matthews, and Darrell Green. No other draft class has matched this quarterback depth.",
+    "difficulty": 7
+  },
+  {
+    "q": "What is the purpose of a 'pin and pull' blocking scheme in the running game?",
+    "a": [
+      "To create a wall of blockers by 'pinning' defenders inside and 'pulling' linemen to the edge",
+      "To confuse the defense about which direction the play is going",
+      "To eliminate the need for tight ends in the running game",
+      "To make the running back run faster by creating a straight path"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Pin and pull uses 'pin' blocks (down blocks that seal defenders inside) combined with 'pull' blocks (linemen pulling to the edge). This creates a wall of blockers and opens running lanes, particularly effective on outside zone and stretch plays where you want to get the ball to the edge.",
+    "difficulty": 8
+  },
+  {
+    "q": "The 'Holy Roller' play (1978) led to what rule change?",
+    "a": [
+      "The 'fumble forward' rule, preventing offensive players from advancing fumbles in the final two minutes",
+      "The elimination of laterals on fumble recoveries",
+      "A rule requiring all fumbles to be reviewed by instant replay",
+      "A rule banning fumbles entirely in the final two minutes"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The 'Holy Roller' play in 1978 involved the Raiders intentionally fumbling the ball forward multiple times to score a game-winning touchdown. This led to the 'Ken Stabler Rule' (fumble forward rule), which prevents offensive players from advancing fumbles in the final two minutes of each half.",
+    "difficulty": 8
+  },
+  {
+    "q": "Why is 'Cover 4' (Quarters) particularly effective against spread offenses?",
+    "a": [
+      "It allows the defense to match 4 vertical threats while maintaining run support",
+      "It requires fewer defensive backs than other coverages",
+      "It eliminates the need for linebackers",
+      "It's the only coverage that works against spread formations"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Cover 4 (Quarters) divides the deep field into 4 zones, allowing the defense to match 4 vertical threats from spread formations. It also provides run support from safeties who can come downhill, making it effective against both the pass and run in spread offensive systems.",
+    "difficulty": 8
+  },
+  {
+    "q": "Which team's 'Legion of Boom' secondary changed how defenses approached pass coverage?",
+    "a": [
+      "2012-2015 Seattle Seahawks",
+      "2010-2013 Pittsburgh Steelers",
+      "2015-2018 Denver Broncos",
+      "2016-2019 New England Patriots"
+    ],
+    "correct": 0,
+    "type": "History",
+    "expl": "The Seattle Seahawks' 'Legion of Boom' secondary (2012-2015) featured Richard Sherman, Earl Thomas, Kam Chancellor, and Brandon Browner. They popularized Cover 3 and press coverage techniques, proving that physical, aggressive coverage could shut down even the best passing attacks, winning Super Bowl XLVIII.",
+    "difficulty": 7
+  },
+  {
+    "q": "What makes a 'duo' blocking scheme different from traditional zone blocking?",
+    "a": [
+      "Duo uses double-team blocks at the point of attack, then one blocker works to the second level",
+      "Duo requires only one offensive lineman to block",
+      "Duo is used exclusively for passing plays",
+      "Duo eliminates the need for a running back"
+    ],
+    "correct": 0,
+    "type": "Scheme",
+    "expl": "Duo blocking (also called 'power without a puller') uses double-team blocks at the point of attack, with both linemen working together initially. Then one blocker works to the second level (linebacker) while the other maintains the double-team. This creates a physical, downhill running game that's different from zone's lateral movement.",
+    "difficulty": 8
+  }
+]
