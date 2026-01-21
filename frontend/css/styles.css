@@ -184,6 +184,15 @@
     border-color: var(--neu-accent-bright);
 }
 
+.answer-btn.correct .answer-text,
+.answer-btn.correct .neu-text-primary {
+    color: var(--neu-bg) !important;
+}
+
+.answer-btn.correct .neu-text-accent {
+    color: var(--neu-bg) !important;
+}
+
 .answer-btn.incorrect {
     background: var(--neu-error);
     color: white;
